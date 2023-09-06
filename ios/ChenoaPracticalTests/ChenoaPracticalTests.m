@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface demoTests : XCTestCase
+@interface ChenoaPracticalTests : XCTestCase
 
 @end
 
-@implementation demoTests
+@implementation ChenoaPracticalTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {
