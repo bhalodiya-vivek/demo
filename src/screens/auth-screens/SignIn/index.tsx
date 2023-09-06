@@ -41,6 +41,7 @@ const SignIn = () => {
         />
         <Button
           title="Sign In"
+          disabled={!email.trim() || !password.trim()}
           onPress={() => {
             dispatch(setIsUserSignedIn(true));
           }}
